@@ -1,9 +1,17 @@
 #include <iostream>
+using namespace STD;
 
 int main() {
-    using namespace std;
-    using std::cout;
-    using std::cin;
     int x1,x2,y1,y2;
     cout << "x1: ";
     cin >> x1;
+    cout << "x2: ";
+    cin >> x2;
+    cout << "y1: ";
+    cin >> y1;
+    cout << "y2: ";
+    cin >> y2;
+cout << (x1 * x2) + (y1 * y2) << endl;
+return0;
+}
+
