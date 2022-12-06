@@ -4,8 +4,6 @@
 int main(){
     setlocale(LC_ALL, "Russian");
     using namespace std;
-    using std::cout;
-    using std::cin;
     int n;
     double S,r;
     cout << "Введите количество сторон - " << "\n";
